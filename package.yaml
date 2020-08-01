@@ -1,0 +1,23 @@
+name:         monoidal-categories
+version:      0.0.0.1
+synopsis:     A library for working with monoidal categories
+maintainer:   Sven Keidel <svenkeidel@gmail.com>
+license:      BSD3
+category:     Language
+
+dependencies:
+  - base >= 4.10 && < 4.14
+  - singletons
+  - diagrams-lib
+  - diagrams-svg
+
+library:
+  ghc-options:
+    -Wall
+    -Wcompat
+    -Widentities
+    -Wincomplete-record-updates
+    -Wincomplete-uni-patterns
+    -Wredundant-constraints
+  source-dirs:
+    - src
